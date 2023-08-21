@@ -1,0 +1,18 @@
+{
+  "id": "223",
+  "type": "DEFAULT",
+  "active": true,
+  "t_start": "2022-05-05T12:00:00.000Z",
+  "t_stop": "2022-05-05T13:00:00.000Z",
+  "rules": {
+    "rule_name": "rule_default",
+    "domain": "example3.com",
+    "destination": [
+      "192.168.1.111",
+      "192.168.1.211"
+    ],
+    "source": "192.168.0.22",
+    "action": "allow",
+    "direction": "inbound"
+  }
+}

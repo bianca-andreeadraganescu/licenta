@@ -1,0 +1,18 @@
+{
+  "id": "222",
+  "type": "EXAM",
+  "active": true,
+  "t_start": "2022-05-05T12:00:00.000Z",
+  "t_stop": "2022-05-05T13:00:00.000Z",
+  "rules": {
+    "rule_name": "rule_EXAM",
+    "domain": "example.com",
+    "destination": [
+      "192.168.2.2",
+      "192.168.10.2"
+    ],
+    "source": "192.168.0.15",
+    "action": "allow",
+    "direction": "inbound"
+  }
+}
